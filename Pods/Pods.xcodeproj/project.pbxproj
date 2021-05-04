@@ -3,94 +3,242 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D5418788886B5A1415D0987782B22E6 /* siri_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */; };
-		1F62E75AB016476031C5AE922F1C2D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		25000B8235A3A0D2FE35A2898FD472FC /* Pods-FinalProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B48F7A920300E05DCEFF035A569617 /* Pods-FinalProject-dummy.m */; };
-		2E7381E5AFE7A18B3D43AAFBB81B4EF9 /* Pods-FinalProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A3748861002550F3DDE834AC7DDEAC /* Pods-FinalProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F386D4A33B3431E14727F2ED843CDE1 /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */; };
-		2F81BA87F39925EEFB4BC22DF4936BEF /* InstantSearchVoiceOverlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		338B6371E751785406896467455E9B6F /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */; };
-		3803C5F1C5096B53C7783C28DBF0AF2C /* AllowPermissionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */; };
-		3D528FE25436150D296956DEFBC4D748 /* NoPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */; };
-		4212CACD0EB7850C8350E433317F2919 /* Recordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */; };
-		46B025EF09CEFF283B6FF1284FBC36CC /* siri_error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */; };
-		4AF28FEC83906A4B3DFB3DD252FA789F /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */; };
-		53482FDA250C246CE1293FD93627F4E3 /* SpeechRecognitionPermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */; };
-		5B75B7F8E42D8B3172B47C09942E9531 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */; };
-		61A58D6AE59F58B9FE5A01C1F97414F3 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */; };
-		648D1A62D9EE65B7151741BF242D18A8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */; };
-		77E7B2F2AF6E6D147EF77730563D6DF6 /* InstantSearchVoiceOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */; };
-		8094A8AC9DCC7B6E791C92A87173C874 /* MicrophonePermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */; };
-		A162E0D8B67AEB29579B4AA91593B02A /* PermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */; };
+		0D522192095B03BB121AF781BF544DAE /* AnyPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9260F321E0FB70DA22B5D1AA8BD1FF1 /* AnyPagingItem.swift */; };
+		109F659C029172AF837165B1C272BAAC /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D72B0C29F3095EA90876B2D5C4F3A /* PagingState.swift */; };
+		1742AC1E130AE352E5C78BBEB8599125 /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FC42B902F8DA68CC3F888AB41D74D /* PagingInvalidationContext.swift */; };
+		181E15A274F2D6A161DEBEF9D174C00F /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810CD26FD6B439766D096197F9A96D1 /* PagingSizeCache.swift */; };
+		1B843F78A849AE99A03F29AFB129C0F9 /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AB6D62B52170B4B0FD275EE77C4C42 /* PagingItem.swift */; };
+		1D1AD4E1E8D137808A1DBF14E871AAEA /* PagingMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609A7AD468509D2A98DFDB073AF132BD /* PagingMenuDelegate.swift */; };
+		1D5418788886B5A1415D0987782B22E6 /* siri_start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16AD0A9A3EC085B8CB053D4EB9D1ECAE /* siri_start.mp3 */; };
+		1E1C37505C8FF000DCB67CEC45E1E737 /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269715A5A8249E9F0A4089AB1A9FD89E /* PagingBorderLayoutAttributes.swift */; };
+		1E8FF4FA576BC45DEA5D1ECC1468F90D /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C66880515A5804198E6D5420BE4454 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C25BE09A377A4A3DEFAECA7EBE6929 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF52F5869ACB4B29A319CD58853D83 /* PagingSelectedScrollPosition.swift */; };
+		2640033B8342C4EC45E5F911B09D1D3A /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3231462BEF8B5AD13B57379C19FCC9 /* PagingIndicatorLayoutAttributes.swift */; };
+		2A56D138D623A33A078470508C5877FF /* PagingViewControllerSizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9994B6CF52B5BC2CE5F21C4F2E0EBAA0 /* PagingViewControllerSizeDelegate.swift */; };
+		2C9366A1B9EE92BAA7E4D62289177108 /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0BB9BCE09F19DA31C69054ACFB836 /* PagingDistance.swift */; };
+		2E8A1B4FD6AA6812F3C5E323B15381FE /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186FDCE351DA56E4AF05CF56DDC66329 /* PagingTransition.swift */; };
+		2F386D4A33B3431E14727F2ED843CDE1 /* RecordingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23980F08FB40B5B62167416B2DFA0560 /* RecordingButton.swift */; };
+		2F81BA87F39925EEFB4BC22DF4936BEF /* InstantSearchVoiceOverlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA865966C729F06C985592190C29FD9 /* InstantSearchVoiceOverlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327DA2CE5D9475F8812418C436DC92BD /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837AB7095970BAFCDD6CFBC1553B417 /* InvalidationState.swift */; };
+		338B6371E751785406896467455E9B6F /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A5DB34D5389C2542E20E8BE3FA5C4 /* PermissionViewController.swift */; };
+		37AFF0400220F4ED6E06779C16F0E11C /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EA4DDA209A295ABF8E81F8FD39DB68 /* UIColor+interpolation.swift */; };
+		3803C5F1C5096B53C7783C28DBF0AF2C /* AllowPermissionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F79BA447EFD7B070F0EDF870F11406 /* AllowPermissionButton.swift */; };
+		384B93C6E72755BE0A7ED831EDC2EA55 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABCA8E67CF789B849991CA01307C66C /* PagingLayout.swift */; };
+		396D5E703627889AB9CC5A2252B4698D /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67869E09FCB7EC5E4C341C014904FCB1 /* PagingDiff.swift */; };
+		3B27CF29BC8C2A47E3F760927C724656 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F2930016EB811D53BF217E50DD3A9 /* PagingView.swift */; };
+		3D0122ACEA29BEF6FEF51A7748766213 /* PagingFiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A00520EC94C24EB71326D3E7D906D /* PagingFiniteDataSource.swift */; };
+		3D528FE25436150D296956DEFBC4D748 /* NoPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12D186A8DBC0E050EF739D9FCAEFC6 /* NoPermissionViewController.swift */; };
+		3EA2F0041BAB7D2EA90C296B7B601D87 /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40D02C3EC4FB9E0817149004A26D559 /* PagingCell.swift */; };
+		40854120870D906DA9CF9F6818C2A586 /* PageViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA95CFFA87BBC608F4DC95B1F5E211 /* PageViewState.swift */; };
+		4212CACD0EB7850C8350E433317F2919 /* Recordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4F0A1B59C165C0D839782352E0F2B /* Recordable.swift */; };
+		45BE4348708F7D21D48F8A31D8F0DCC0 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9CE4A5BA4B907E3CC73B7C465BCE7 /* CollectionView.swift */; };
+		46B025EF09CEFF283B6FF1284FBC36CC /* siri_error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3448581BA5155D9CB73701A520E12 /* siri_error.mp3 */; };
+		46FB514B552478DCA59FA9AD56CFEB19 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18C7BA988725C6B772139EF068CCF0C /* PagingContentInteraction.swift */; };
+		4AF28FEC83906A4B3DFB3DD252FA789F /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B902C4F1B6CE542C1D8B1755A586CC /* SpeechController.swift */; };
+		52C936D4F8E82594AB2D9DCCF115ACE2 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2394A60453133CBCA9899DE5B4D3068 /* UIEdgeInsets.swift */; };
+		53482FDA250C246CE1293FD93627F4E3 /* SpeechRecognitionPermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559C8A6CA1292A3A6296F2EDD620D26 /* SpeechRecognitionPermissionController.swift */; };
+		576B418F3E22442F549991C4D87A767F /* PagingMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B2BFFDA46D2C69E3EF880FE61FAB0 /* PagingMenuDataSource.swift */; };
+		58497C193F64EAE7E1E3D298F2B6DA0C /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64D6A0706F8FFDAD25B6E2CF030ECE /* PagingViewControllerDataSource.swift */; };
+		5AAEE2A5860ADF1F54CDC8015F376FB9 /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9AB8F5C3D0E4B3C5903CC716C6855 /* PagingBorderView.swift */; };
+		5B75B7F8E42D8B3172B47C09942E9531 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A54F3648D81070AD85E40F169E33670 /* CloseView.swift */; };
+		5CA6CC19DB976254ADB250213FE04C48 /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4065394609599BBC59A5A77B1A12D8C /* PagingItems.swift */; };
+		61A58D6AE59F58B9FE5A01C1F97414F3 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC81C8EC2159BA660F4A0610C25A147 /* RecordingViewController.swift */; };
+		61B1F2C0FEDAD817CE9D9E6D107E5CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		648D1A62D9EE65B7151741BF242D18A8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C0573BD225A5DBC1DA832F1850282 /* ResultViewController.swift */; };
+		6A504186E13C622D382A945DD86BECD5 /* PageViewDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBBDFD424756B0117A18639BF7DF25C /* PageViewDirection.swift */; };
+		6B2EBAB6DD41A4B60C440537A2F71ADA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C420FE209257D656EA185E916510C15 /* PageViewController.swift */; };
+		6D1B32FA2067DF05B85CA6BC76A7055A /* PageViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845FFE7811BDF865856D5D23A4E1C507 /* PageViewControllerDataSource.swift */; };
+		7719B56A201A45735B8A51C9399C6AD7 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C944E8AF688BC655BB2E330E3F8165 /* PagingMenuItemSize.swift */; };
+		77E7B2F2AF6E6D147EF77730563D6DF6 /* InstantSearchVoiceOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B720862DD8A98FC6104E844AEFCE22EB /* InstantSearchVoiceOverlay-dummy.m */; };
+		8094A8AC9DCC7B6E791C92A87173C874 /* MicrophonePermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73B249FD5837A0B945B813344BA383 /* MicrophonePermissionController.swift */; };
+		833A2DCD78A668EAF2E6ECEA9BE7DF24 /* PagingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C761179BE45FEB01882513F2D25AE6 /* PagingController.swift */; };
+		845096CC57E982CD0D6A320449F2B3AF /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0666797BA12817321B205D66E538B /* PagingCellLayoutAttributes.swift */; };
+		89E3692009842C0B79E06FB70889A88D /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196A5539F95F45EC77CA7EE276985AB /* PagingDirection.swift */; };
+		8E7DBA389DBBACFB8DACCDABF493A4F8 /* Pods-FinalProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B48F7A920300E05DCEFF035A569617 /* Pods-FinalProject-dummy.m */; };
+		91F5DA701389462310FF1F343BC6822E /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE66AEF56EEB2B6BAD9728EDDDCF41 /* PagingMenuHorizontalAlignment.swift */; };
+		9BB6D46693C1C564150AF319444042A5 /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09FAA02E841C207034878B23852CACC /* PagingIndicatorView.swift */; };
+		9C3D77F17E713775E48674441FB65A05 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358FEB0F6164885FD61F8CE74A18A03 /* PageView.swift */; };
+		A162E0D8B67AEB29579B4AA91593B02A /* PermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF959436B583A873AD87684224D4F8F6 /* PermissionController.swift */; };
+		A2511C9A5374FEFE25D210147AE5BAA8 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 043750433730736CC164DB5A33256128 /* Parchment-dummy.m */; };
+		A4C384CF78CF2D00DE64B72423FA51E7 /* PageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8EBA2BE41A5B7ADAFB3495CD5E6C3 /* PageViewManagerDelegate.swift */; };
+		A7EC2CD87B33FCE32907E079BFA797CA /* PagingStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4261232F485639DF23EA6A4B805305A /* PagingStaticDataSource.swift */; };
+		A9AAF2C56A27D4ADF9A421536E4700DF /* PageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2428019BD5A4FEF672F8B1915EE2F0D /* PageViewControllerDelegate.swift */; };
+		ABB815F3ABE8FFF39F90212D18991BF2 /* PagingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B81F6F470D83662075311AC28A6B81 /* PagingMenuView.swift */; };
+		AC1700C0CAEBA26E5178076E84E5AFE8 /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA387947966855972F1692BA82BBF2 /* PagingMenuInteraction.swift */; };
 		AFF9F213943CCE01ADEDC97B61260958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B3ADF2861484A81137E654B7B13E2A98 /* VoiceOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */; };
-		B402007F6C42263917035D12403C867F /* AutoLayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */; };
-		CA64A426572C32D518AD1AEEEC1CB20E /* VoiceOverlayPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */; };
-		DA8030B0DAAF96BA15D4FF34E0C863C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */; };
-		F454421E92779EA834068CA10D213AA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */; };
-		F53A2974DD63784A7936BBB5DE7D78FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */; };
-		F7BB04362C9D772F060A6E9EF2218E32 /* siri_end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */; };
+		B3ADF2861484A81137E654B7B13E2A98 /* VoiceOverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92CB78EFC7BF07DAC9AAB30B7050D8 /* VoiceOverlayController.swift */; };
+		B402007F6C42263917035D12403C867F /* AutoLayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D5E25767B393E7BD98019F261B7D12 /* AutoLayoutHelpers.swift */; };
+		B604F144E353518F2A04C5C9AFD13C2C /* Pods-FinalProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A3748861002550F3DDE834AC7DDEAC /* Pods-FinalProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7683EE1BD68E797E42A14A4E24A8B78 /* PagingIndexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74809DA4A4BBDE9CA7E7082C77CA2C /* PagingIndexItem.swift */; };
+		BC2DEA430D36C51DF5F61751EDEAEED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD47077E487BE1EF196B96535DB51CCD /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1653DF6D669E58C503E0C4DD36B35971 /* Tween.swift */; };
+		BED2871609E32CE5BE41CD7111333798 /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E2CED1B2B5D55C4E3BD0A51C564ED /* PagingOptions.swift */; };
+		C236B7B8C1F8DC1760E55B637729D771 /* PageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C9F4D5AA40B1722C6FDD69779C1068 /* PageViewManagerDataSource.swift */; };
+		C4BB9BCEC4438A6928C34A4924A4FFC5 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21980D3FBD3B6A899924F884140E582 /* PagingViewControllerDelegate.swift */; };
+		C5D3863B12FBF0BFA4E297DC6249359F /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143DD692C822DBC2F28E0C5BAC1DF7FE /* PagingCellViewModel.swift */; };
+		C6D675F08463AC45AC7F36525A09BA95 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E03E6B158B08556B3EABFAB860BB93 /* PagingViewController.swift */; };
+		C892F4BD4795C624582FF290E3858254 /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28A3576A6F39D976EDAC22D922CBEF /* PagingMenuTransition.swift */; };
+		CA64A426572C32D518AD1AEEEC1CB20E /* VoiceOverlayPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78644B9C66889C7429704C6D095E5B /* VoiceOverlayPackage.swift */; };
+		D3DE98DBBD84876658D174421E548F62 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232E5573B5A5C58751B8025D5EA9C0F4 /* PagingViewControllerInfiniteDataSource.swift */; };
+		DA8030B0DAAF96BA15D4FF34E0C863C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23F5CE73839354801693ECB35159180 /* Extensions.swift */; };
+		DF080916B7B4250E9DE4227B3E19A4EE /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930CA39799DB607CB2F611BF5DC9A5D /* PagingTitleCell.swift */; };
+		E04079DB74A408A5F5A625DCFCFB9EBC /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE1C4BCAB70B04E68281B31944FF3C /* UIView+constraints.swift */; };
+		E1F0B990BB5F9B7239558E87B70A7F77 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8307A46032A9F0B984A98BECC55BD469 /* PagingIndicatorOptions.swift */; };
+		E435FA73C7AB697A75937B10F5A8BFF3 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EE7A5DAA9958E27022F363E5CC27C /* PageViewManager.swift */; };
+		E93134BBBE06146958073C93087703D0 /* PagingMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7A6DE1D94BA5554C023F95E7EBAE1 /* PagingMenuPosition.swift */; };
+		EAF8E5CBB6507D7C2FC2B09C135D470A /* PagingNavigationOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7A05D7D6A20A91994A0348A18743A /* PagingNavigationOrientation.swift */; };
+		ED517FEB751D53D8A821111B7254A925 /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66321D152F949D4349B7DBB9D52491C1 /* PagingBorderOptions.swift */; };
+		F2CF6AB02C2972418370FF8694FF763A /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D288DB7613AE5F5C5EB967311A72CD8 /* PagingIndicatorMetric.swift */; };
+		F454421E92779EA834068CA10D213AA4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70742241787C26D2ACC231C6ACC572 /* Constant.swift */; };
+		F53A2974DD63784A7936BBB5DE7D78FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BBA15BC2D7D5ADCDC4AF131C8973BB /* Assets.xcassets */; };
+		F53DC785A913556433B964C543C86C5B /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1527C8578A57DEA101B68BC7915ABA9 /* PagingCollectionViewLayout.swift */; };
+		F7BB04362C9D772F060A6E9EF2218E32 /* siri_end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1DCA129857A4D9639CB3C1AD96DA3AC /* siri_end.mp3 */; };
+		FCEA5B6CF52DF4436A100E83A35B5254 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F951DFE2F91B5AE34D555B6C3AC3EEB /* PagingMenuItemSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		582997FD0154B22A6BEF86BCAFF3A5F4 /* PBXContainerItemProxy */ = {
+		11329152D84C1794A76E00A9EE83FE68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3A186D5E4FEF43A5AF44DB305B59EC1F;
 			remoteInfo = InstantSearchVoiceOverlay;
 		};
+		91C6444B1F2F9E08BAAADD990AC28A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
+			remoteInfo = Parchment;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/PermissionController.swift; sourceTree = "<group>"; };
+		0196A5539F95F45EC77CA7EE276985AB /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
+		043750433730736CC164DB5A33256128 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
+		04E4F0A1B59C165C0D839782352E0F2B /* Recordable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recordable.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/Recordable.swift; sourceTree = "<group>"; };
+		068A3F2DBE87E54D0665103A019A4026 /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
 		07BE061610D3A3F82BF5330E037AE153 /* Pods-FinalProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalProject-Info.plist"; sourceTree = "<group>"; };
-		0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MicrophonePermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/MicrophonePermissionController.swift; sourceTree = "<group>"; };
-		0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		0AD662F88A471CD2BEFB02CD22F79A2B /* Parchment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.debug.xcconfig; sourceTree = "<group>"; };
 		0ECC5CA97BCB0B1483FBFFDB9C96AC30 /* Pods-FinalProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinalProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		113B4F8296F500A88980264815A732E0 /* InstantSearchVoiceOverlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstantSearchVoiceOverlay.modulemap; sourceTree = "<group>"; };
-		12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/SpeechController.swift; sourceTree = "<group>"; };
-		20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/PermissionViewController.swift; sourceTree = "<group>"; };
-		22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayPackage.swift; path = Sources/InstantSearchVoiceOverlay/VoiceOverlayPackage.swift; sourceTree = "<group>"; };
-		2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-umbrella.h"; sourceTree = "<group>"; };
-		4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/RecordingViewController.swift; sourceTree = "<group>"; };
-		49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/InstantSearchVoiceOverlay/Views/Assets.xcassets; sourceTree = "<group>"; };
-		558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_start.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_start.mp3; sourceTree = "<group>"; };
-		5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.release.xcconfig; sourceTree = "<group>"; };
-		6633DF7970A9717632D6E3958390E191 /* InstantSearchVoiceOverlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InstantSearchVoiceOverlay-Info.plist"; sourceTree = "<group>"; };
-		6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/ResultViewController.swift; sourceTree = "<group>"; };
+		0F5E2CED1B2B5D55C4E3BD0A51C564ED /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
+		143DD692C822DBC2F28E0C5BAC1DF7FE /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
+		1653DF6D669E58C503E0C4DD36B35971 /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
+		16AD0A9A3EC085B8CB053D4EB9D1ECAE /* siri_start.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_start.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_start.mp3; sourceTree = "<group>"; };
+		186FDCE351DA56E4AF05CF56DDC66329 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
+		1A2A00520EC94C24EB71326D3E7D906D /* PagingFiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingFiniteDataSource.swift; path = Parchment/Classes/PagingFiniteDataSource.swift; sourceTree = "<group>"; };
+		1ABCA8E67CF789B849991CA01307C66C /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
+		1D4794AD5E0A894DDDFECF8B16F035E2 /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		1F951DFE2F91B5AE34D555B6C3AC3EEB /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		1FBE1C4BCAB70B04E68281B31944FF3C /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		232E5573B5A5C58751B8025D5EA9C0F4 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		23980F08FB40B5B62167416B2DFA0560 /* RecordingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/RecordingButton.swift; sourceTree = "<group>"; };
+		269715A5A8249E9F0A4089AB1A9FD89E /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
+		27EE66AEF56EEB2B6BAD9728EDDDCF41 /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		29B902C4F1B6CE542C1D8B1755A586CC /* SpeechController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/SpeechController.swift; sourceTree = "<group>"; };
+		2A54F3648D81070AD85E40F169E33670 /* CloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseView.swift; path = Sources/InstantSearchVoiceOverlay/Views/CloseView.swift; sourceTree = "<group>"; };
+		2E69E2A026F3600F2B58DFBF1CA9FE21 /* InstantSearchVoiceOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.debug.xcconfig; sourceTree = "<group>"; };
+		319B2BFFDA46D2C69E3EF880FE61FAB0 /* PagingMenuDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuDataSource.swift; path = Parchment/Protocols/PagingMenuDataSource.swift; sourceTree = "<group>"; };
+		32BBA15BC2D7D5ADCDC4AF131C8973BB /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Sources/InstantSearchVoiceOverlay/Views/Assets.xcassets; sourceTree = "<group>"; };
+		3A73B249FD5837A0B945B813344BA383 /* MicrophonePermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MicrophonePermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/MicrophonePermissionController.swift; sourceTree = "<group>"; };
+		47EA4DDA209A295ABF8E81F8FD39DB68 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		4837AB7095970BAFCDD6CFBC1553B417 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
+		4BC6FAB18823701B75E40D55FBEBB7CC /* InstantSearchVoiceOverlay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InstantSearchVoiceOverlay-Info.plist"; sourceTree = "<group>"; };
+		4CBBDFD424756B0117A18639BF7DF25C /* PageViewDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewDirection.swift; path = Parchment/Enums/PageViewDirection.swift; sourceTree = "<group>"; };
+		4DC3448581BA5155D9CB73701A520E12 /* siri_error.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_error.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_error.mp3; sourceTree = "<group>"; };
+		5769A0EEE8D2E8EBDD20B895ACDAB365 /* InstantSearchVoiceOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-prefix.pch"; sourceTree = "<group>"; };
+		58EA387947966855972F1692BA82BBF2 /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		5930CA39799DB607CB2F611BF5DC9A5D /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
+		5C70742241787C26D2ACC231C6ACC572 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Constant.swift; sourceTree = "<group>"; };
+		5E74809DA4A4BBDE9CA7E7082C77CA2C /* PagingIndexItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndexItem.swift; path = Parchment/Structs/PagingIndexItem.swift; sourceTree = "<group>"; };
+		609A7AD468509D2A98DFDB073AF132BD /* PagingMenuDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuDelegate.swift; path = Parchment/Protocols/PagingMenuDelegate.swift; sourceTree = "<group>"; };
+		661920BAE5B75E454D197DD3ED95E952 /* Parchment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.release.xcconfig; sourceTree = "<group>"; };
+		66321D152F949D4349B7DBB9D52491C1 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
+		674D72B0C29F3095EA90876B2D5C4F3A /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
+		67869E09FCB7EC5E4C341C014904FCB1 /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
+		69D5E25767B393E7BD98019F261B7D12 /* AutoLayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoLayoutHelpers.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/AutoLayoutHelpers.swift; sourceTree = "<group>"; };
+		6ABB560B4BA489049AD09FC7242024A0 /* InstantSearchVoiceOverlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstantSearchVoiceOverlay.modulemap; sourceTree = "<group>"; };
+		6C420FE209257D656EA185E916510C15 /* PageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = Parchment/Classes/PageViewController.swift; sourceTree = "<group>"; };
 		6E9F99F1CEEAB2BCE91510974041A127 /* Pods_FinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FinalProject.framework; path = "Pods-FinalProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoLayoutHelpers.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/AutoLayoutHelpers.swift; sourceTree = "<group>"; };
+		70AB6D62B52170B4B0FD275EE77C4C42 /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllowPermissionButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/AllowPermissionButton.swift; sourceTree = "<group>"; };
+		743C0573BD225A5DBC1DA832F1850282 /* ResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/ResultViewController.swift; sourceTree = "<group>"; };
 		7C064575279DD20D01988D5798D57BE6 /* Pods-FinalProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinalProject.modulemap"; sourceTree = "<group>"; };
-		8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/NoPermissionViewController.swift; sourceTree = "<group>"; };
-		82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.debug.xcconfig; sourceTree = "<group>"; };
-		870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/RecordingButton.swift; sourceTree = "<group>"; };
-		88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_end.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_end.mp3; sourceTree = "<group>"; };
+		7C28A3576A6F39D976EDAC22D922CBEF /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		8307A46032A9F0B984A98BECC55BD469 /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		845FFE7811BDF865856D5D23A4E1C507 /* PageViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewControllerDataSource.swift; path = Parchment/Protocols/PageViewControllerDataSource.swift; sourceTree = "<group>"; };
+		8A78644B9C66889C7429704C6D095E5B /* VoiceOverlayPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayPackage.swift; path = Sources/InstantSearchVoiceOverlay/VoiceOverlayPackage.swift; sourceTree = "<group>"; };
 		8CCF41F4201199926D7564BEAA2C80F7 /* Pods-FinalProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FinalProject-frameworks.sh"; sourceTree = "<group>"; };
-		8DB7E05E363415EF6B6DBD4C90FB07C1 /* InstantSearchVoiceOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-prefix.pch"; sourceTree = "<group>"; };
-		902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechRecognitionPermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/SpeechRecognitionPermissionController.swift; sourceTree = "<group>"; };
-		9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseView.swift; path = Sources/InstantSearchVoiceOverlay/Views/CloseView.swift; sourceTree = "<group>"; };
+		8D288DB7613AE5F5C5EB967311A72CD8 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
 		91E21D959085D5CFC7E75D14DE86B75C /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
-		9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recordable.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/Recordable.swift; sourceTree = "<group>"; };
-		9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstantSearchVoiceOverlay-dummy.m"; sourceTree = "<group>"; };
+		94F7A05D7D6A20A91994A0348A18743A /* PagingNavigationOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingNavigationOrientation.swift; path = Parchment/Structs/PagingNavigationOrientation.swift; sourceTree = "<group>"; };
+		969BBB68447FF06B4E904297AEC5E1FE /* Parchment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Parchment-Info.plist"; sourceTree = "<group>"; };
+		9994B6CF52B5BC2CE5F21C4F2E0EBAA0 /* PagingViewControllerSizeDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerSizeDelegate.swift; path = Parchment/Protocols/PagingViewControllerSizeDelegate.swift; sourceTree = "<group>"; };
+		9A8F2930016EB811D53BF217E50DD3A9 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		9C12D186A8DBC0E050EF739D9FCAEFC6 /* NoPermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/NoPermissionViewController.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA865966C729F06C985592190C29FD9 /* InstantSearchVoiceOverlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstantSearchVoiceOverlay-umbrella.h"; sourceTree = "<group>"; };
+		9FC0BB9BCE09F19DA31C69054ACFB836 /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
+		A3C944E8AF688BC655BB2E330E3F8165 /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		A4065394609599BBC59A5A77B1A12D8C /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
+		A4261232F485639DF23EA6A4B805305A /* PagingStaticDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStaticDataSource.swift; path = Parchment/Classes/PagingStaticDataSource.swift; sourceTree = "<group>"; };
+		A85A5DB34D5389C2542E20E8BE3FA5C4 /* PermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/PermissionViewController.swift; sourceTree = "<group>"; };
+		AA8EE7A5DAA9958E27022F363E5CC27C /* PageViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewManager.swift; path = Parchment/Classes/PageViewManager.swift; sourceTree = "<group>"; };
 		AACE4D666716D0C05F7D21F0704A8729 /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE9AB8F5C3D0E4B3C5903CC716C6855 /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
+		B0C66880515A5804198E6D5420BE4454 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
+		B18C7BA988725C6B772139EF068CCF0C /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		B40D02C3EC4FB9E0817149004A26D559 /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
+		B4C761179BE45FEB01882513F2D25AE6 /* PagingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingController.swift; path = Parchment/Classes/PagingController.swift; sourceTree = "<group>"; };
 		B5B48F7A920300E05DCEFF035A569617 /* Pods-FinalProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinalProject-dummy.m"; sourceTree = "<group>"; };
+		B720862DD8A98FC6104E844AEFCE22EB /* InstantSearchVoiceOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstantSearchVoiceOverlay-dummy.m"; sourceTree = "<group>"; };
 		B7A3748861002550F3DDE834AC7DDEAC /* Pods-FinalProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinalProject-umbrella.h"; sourceTree = "<group>"; };
-		C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Constant.swift; sourceTree = "<group>"; };
-		C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_error.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_error.mp3; sourceTree = "<group>"; };
+		B7F79BA447EFD7B070F0EDF870F11406 /* AllowPermissionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllowPermissionButton.swift; path = Sources/InstantSearchVoiceOverlay/Views/AllowPermissionButton.swift; sourceTree = "<group>"; };
+		B810CD26FD6B439766D096197F9A96D1 /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		BAE7A6DE1D94BA5554C023F95E7EBAE1 /* PagingMenuPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuPosition.swift; path = Parchment/Enums/PagingMenuPosition.swift; sourceTree = "<group>"; };
+		BBC81C8EC2159BA660F4A0610C25A147 /* RecordingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingViewController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/RecordingViewController.swift; sourceTree = "<group>"; };
+		BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3231462BEF8B5AD13B57379C19FCC9 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		BFBA95CFFA87BBC608F4DC95B1F5E211 /* PageViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewState.swift; path = Parchment/Enums/PageViewState.swift; sourceTree = "<group>"; };
+		C1527C8578A57DEA101B68BC7915ABA9 /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		C4B81F6F470D83662075311AC28A6B81 /* PagingMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuView.swift; path = Parchment/Classes/PagingMenuView.swift; sourceTree = "<group>"; };
+		C559C8A6CA1292A3A6296F2EDD620D26 /* SpeechRecognitionPermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechRecognitionPermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/Permission/SpeechRecognitionPermissionController.swift; sourceTree = "<group>"; };
 		C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstantSearchVoiceOverlay.framework; path = InstantSearchVoiceOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BF52F5869ACB4B29A319CD58853D83 /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
+		CC64D6A0706F8FFDAD25B6E2CF030ECE /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		CE92CB78EFC7BF07DAC9AAB30B7050D8 /* VoiceOverlayController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/VoiceOverlayController.swift; sourceTree = "<group>"; };
+		CF959436B583A873AD87684224D4F8F6 /* PermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionController.swift; path = Sources/InstantSearchVoiceOverlay/Protocols/PermissionController.swift; sourceTree = "<group>"; };
+		D1E03E6B158B08556B3EABFAB860BB93 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		D2394A60453133CBCA9899DE5B4D3068 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		D23F5CE73839354801693ECB35159180 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/InstantSearchVoiceOverlay/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		D358FEB0F6164885FD61F8CE74A18A03 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Parchment/Structs/PageView.swift; sourceTree = "<group>"; };
+		D7E0666797BA12817321B205D66E538B /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		D86FC42B902F8DA68CC3F888AB41D74D /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
 		DB72AC871F3DEB473ACCFCA2DE6F6557 /* Pods-FinalProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinalProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceOverlayController.swift; path = Sources/InstantSearchVoiceOverlay/Controllers/VoiceOverlayController.swift; sourceTree = "<group>"; };
+		DCD8EBA2BE41A5B7ADAFB3495CD5E6C3 /* PageViewManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewManagerDelegate.swift; path = Parchment/Protocols/PageViewManagerDelegate.swift; sourceTree = "<group>"; };
+		E1DCA129857A4D9639CB3C1AD96DA3AC /* siri_end.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = siri_end.mp3; path = Sources/InstantSearchVoiceOverlay/Sound/siri_end.mp3; sourceTree = "<group>"; };
+		E21980D3FBD3B6A899924F884140E582 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E2428019BD5A4FEF672F8B1915EE2F0D /* PageViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewControllerDelegate.swift; path = Parchment/Protocols/PageViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E6D9CE4A5BA4B907E3CC73B7C465BCE7 /* CollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionView.swift; path = Parchment/Protocols/CollectionView.swift; sourceTree = "<group>"; };
+		EF729EFB1B2BD8F28737B31F6DFC483D /* InstantSearchVoiceOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstantSearchVoiceOverlay.release.xcconfig; sourceTree = "<group>"; };
+		F09FAA02E841C207034878B23852CACC /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
+		F3C9F4D5AA40B1722C6FDD69779C1068 /* PageViewManagerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewManagerDataSource.swift; path = Parchment/Protocols/PageViewManagerDataSource.swift; sourceTree = "<group>"; };
+		F9260F321E0FB70DA22B5D1AA8BD1FF1 /* AnyPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPagingItem.swift; path = Parchment/Structs/AnyPagingItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		35EC3BA10C563AE78C8CF7BED6C94AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2DEA430D36C51DF5F61751EDEAEED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67B98A61EB86F1CBA650C16CD63542D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,26 +247,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDD3C057005D35D14E3FCBCF08244AAD /* Frameworks */ = {
+		A6417486811FCA2EF2817134E33BD608 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F62E75AB016476031C5AE922F1C2D01 /* Foundation.framework in Frameworks */,
+				61B1F2C0FEDAD817CE9D9E6D107E5CA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43977E34DE8F264F277AD6C29DDBC242 /* Resources */ = {
+		32FA0A139A95B678D5423E193399170D /* InstantSearchVoiceOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				49DECFFA47D4898AE1512DC7BB3D595E /* Assets.xcassets */,
-				88122E317EB7575A4EB55DF442C726E2 /* siri_end.mp3 */,
-				C7C4724338095EDDECBBBF1FFE671307 /* siri_error.mp3 */,
-				558CA1AD0F05689331ADA28E283BD93F /* siri_start.mp3 */,
+				B7F79BA447EFD7B070F0EDF870F11406 /* AllowPermissionButton.swift */,
+				69D5E25767B393E7BD98019F261B7D12 /* AutoLayoutHelpers.swift */,
+				2A54F3648D81070AD85E40F169E33670 /* CloseView.swift */,
+				5C70742241787C26D2ACC231C6ACC572 /* Constant.swift */,
+				D23F5CE73839354801693ECB35159180 /* Extensions.swift */,
+				3A73B249FD5837A0B945B813344BA383 /* MicrophonePermissionController.swift */,
+				9C12D186A8DBC0E050EF739D9FCAEFC6 /* NoPermissionViewController.swift */,
+				CF959436B583A873AD87684224D4F8F6 /* PermissionController.swift */,
+				A85A5DB34D5389C2542E20E8BE3FA5C4 /* PermissionViewController.swift */,
+				04E4F0A1B59C165C0D839782352E0F2B /* Recordable.swift */,
+				23980F08FB40B5B62167416B2DFA0560 /* RecordingButton.swift */,
+				BBC81C8EC2159BA660F4A0610C25A147 /* RecordingViewController.swift */,
+				743C0573BD225A5DBC1DA832F1850282 /* ResultViewController.swift */,
+				29B902C4F1B6CE542C1D8B1755A586CC /* SpeechController.swift */,
+				C559C8A6CA1292A3A6296F2EDD620D26 /* SpeechRecognitionPermissionController.swift */,
+				CE92CB78EFC7BF07DAC9AAB30B7050D8 /* VoiceOverlayController.swift */,
+				8A78644B9C66889C7429704C6D095E5B /* VoiceOverlayPackage.swift */,
+				DA179F713DC94F01F6BCD2C56F063179 /* Resources */,
+				89FF4B56E9F5A6E22F451A9641BA5A73 /* Support Files */,
 			);
-			name = Resources;
+			name = InstantSearchVoiceOverlay;
+			path = InstantSearchVoiceOverlay;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -137,28 +301,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		662F5F45B5F840B70DE3FD2A20A152F3 /* Support Files */ = {
+		89FF4B56E9F5A6E22F451A9641BA5A73 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				113B4F8296F500A88980264815A732E0 /* InstantSearchVoiceOverlay.modulemap */,
-				9C4CE741D762F691BF42AB99377FE3FC /* InstantSearchVoiceOverlay-dummy.m */,
-				6633DF7970A9717632D6E3958390E191 /* InstantSearchVoiceOverlay-Info.plist */,
-				8DB7E05E363415EF6B6DBD4C90FB07C1 /* InstantSearchVoiceOverlay-prefix.pch */,
-				2BC84B8E847A5E8369438024ED7CA6CD /* InstantSearchVoiceOverlay-umbrella.h */,
-				82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */,
-				5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */,
+				6ABB560B4BA489049AD09FC7242024A0 /* InstantSearchVoiceOverlay.modulemap */,
+				B720862DD8A98FC6104E844AEFCE22EB /* InstantSearchVoiceOverlay-dummy.m */,
+				4BC6FAB18823701B75E40D55FBEBB7CC /* InstantSearchVoiceOverlay-Info.plist */,
+				5769A0EEE8D2E8EBDD20B895ACDAB365 /* InstantSearchVoiceOverlay-prefix.pch */,
+				9FA865966C729F06C985592190C29FD9 /* InstantSearchVoiceOverlay-umbrella.h */,
+				2E69E2A026F3600F2B58DFBF1CA9FE21 /* InstantSearchVoiceOverlay.debug.xcconfig */,
+				EF729EFB1B2BD8F28737B31F6DFC483D /* InstantSearchVoiceOverlay.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/InstantSearchVoiceOverlay";
-			sourceTree = "<group>";
-		};
-		66E4CE91C379710B1E625F909DA9CF07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */,
-				6E9F99F1CEEAB2BCE91510974041A127 /* Pods_FinalProject.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9CD0ABB4197554CCF8558ABC3107416B /* Pods-FinalProject */ = {
@@ -178,13 +333,98 @@
 			path = "Target Support Files/Pods-FinalProject";
 			sourceTree = "<group>";
 		};
+		ABF8D7578D17A0A4605DCF25D3B806DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D4794AD5E0A894DDDFECF8B16F035E2 /* Parchment.modulemap */,
+				043750433730736CC164DB5A33256128 /* Parchment-dummy.m */,
+				969BBB68447FF06B4E904297AEC5E1FE /* Parchment-Info.plist */,
+				068A3F2DBE87E54D0665103A019A4026 /* Parchment-prefix.pch */,
+				B0C66880515A5804198E6D5420BE4454 /* Parchment-umbrella.h */,
+				0AD662F88A471CD2BEFB02CD22F79A2B /* Parchment.debug.xcconfig */,
+				661920BAE5B75E454D197DD3ED95E952 /* Parchment.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parchment";
+			sourceTree = "<group>";
+		};
+		B1784CE5E58324ACC31D4C8AE8FB46B2 /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				F9260F321E0FB70DA22B5D1AA8BD1FF1 /* AnyPagingItem.swift */,
+				E6D9CE4A5BA4B907E3CC73B7C465BCE7 /* CollectionView.swift */,
+				4837AB7095970BAFCDD6CFBC1553B417 /* InvalidationState.swift */,
+				D358FEB0F6164885FD61F8CE74A18A03 /* PageView.swift */,
+				6C420FE209257D656EA185E916510C15 /* PageViewController.swift */,
+				845FFE7811BDF865856D5D23A4E1C507 /* PageViewControllerDataSource.swift */,
+				E2428019BD5A4FEF672F8B1915EE2F0D /* PageViewControllerDelegate.swift */,
+				4CBBDFD424756B0117A18639BF7DF25C /* PageViewDirection.swift */,
+				AA8EE7A5DAA9958E27022F363E5CC27C /* PageViewManager.swift */,
+				F3C9F4D5AA40B1722C6FDD69779C1068 /* PageViewManagerDataSource.swift */,
+				DCD8EBA2BE41A5B7ADAFB3495CD5E6C3 /* PageViewManagerDelegate.swift */,
+				BFBA95CFFA87BBC608F4DC95B1F5E211 /* PageViewState.swift */,
+				269715A5A8249E9F0A4089AB1A9FD89E /* PagingBorderLayoutAttributes.swift */,
+				66321D152F949D4349B7DBB9D52491C1 /* PagingBorderOptions.swift */,
+				AEE9AB8F5C3D0E4B3C5903CC716C6855 /* PagingBorderView.swift */,
+				B40D02C3EC4FB9E0817149004A26D559 /* PagingCell.swift */,
+				D7E0666797BA12817321B205D66E538B /* PagingCellLayoutAttributes.swift */,
+				143DD692C822DBC2F28E0C5BAC1DF7FE /* PagingCellViewModel.swift */,
+				C1527C8578A57DEA101B68BC7915ABA9 /* PagingCollectionViewLayout.swift */,
+				B18C7BA988725C6B772139EF068CCF0C /* PagingContentInteraction.swift */,
+				B4C761179BE45FEB01882513F2D25AE6 /* PagingController.swift */,
+				67869E09FCB7EC5E4C341C014904FCB1 /* PagingDiff.swift */,
+				0196A5539F95F45EC77CA7EE276985AB /* PagingDirection.swift */,
+				9FC0BB9BCE09F19DA31C69054ACFB836 /* PagingDistance.swift */,
+				1A2A00520EC94C24EB71326D3E7D906D /* PagingFiniteDataSource.swift */,
+				5E74809DA4A4BBDE9CA7E7082C77CA2C /* PagingIndexItem.swift */,
+				BE3231462BEF8B5AD13B57379C19FCC9 /* PagingIndicatorLayoutAttributes.swift */,
+				8D288DB7613AE5F5C5EB967311A72CD8 /* PagingIndicatorMetric.swift */,
+				8307A46032A9F0B984A98BECC55BD469 /* PagingIndicatorOptions.swift */,
+				F09FAA02E841C207034878B23852CACC /* PagingIndicatorView.swift */,
+				D86FC42B902F8DA68CC3F888AB41D74D /* PagingInvalidationContext.swift */,
+				70AB6D62B52170B4B0FD275EE77C4C42 /* PagingItem.swift */,
+				A4065394609599BBC59A5A77B1A12D8C /* PagingItems.swift */,
+				1ABCA8E67CF789B849991CA01307C66C /* PagingLayout.swift */,
+				319B2BFFDA46D2C69E3EF880FE61FAB0 /* PagingMenuDataSource.swift */,
+				609A7AD468509D2A98DFDB073AF132BD /* PagingMenuDelegate.swift */,
+				27EE66AEF56EEB2B6BAD9728EDDDCF41 /* PagingMenuHorizontalAlignment.swift */,
+				58EA387947966855972F1692BA82BBF2 /* PagingMenuInteraction.swift */,
+				A3C944E8AF688BC655BB2E330E3F8165 /* PagingMenuItemSize.swift */,
+				1F951DFE2F91B5AE34D555B6C3AC3EEB /* PagingMenuItemSource.swift */,
+				BAE7A6DE1D94BA5554C023F95E7EBAE1 /* PagingMenuPosition.swift */,
+				7C28A3576A6F39D976EDAC22D922CBEF /* PagingMenuTransition.swift */,
+				C4B81F6F470D83662075311AC28A6B81 /* PagingMenuView.swift */,
+				94F7A05D7D6A20A91994A0348A18743A /* PagingNavigationOrientation.swift */,
+				0F5E2CED1B2B5D55C4E3BD0A51C564ED /* PagingOptions.swift */,
+				C9BF52F5869ACB4B29A319CD58853D83 /* PagingSelectedScrollPosition.swift */,
+				B810CD26FD6B439766D096197F9A96D1 /* PagingSizeCache.swift */,
+				674D72B0C29F3095EA90876B2D5C4F3A /* PagingState.swift */,
+				A4261232F485639DF23EA6A4B805305A /* PagingStaticDataSource.swift */,
+				5930CA39799DB607CB2F611BF5DC9A5D /* PagingTitleCell.swift */,
+				186FDCE351DA56E4AF05CF56DDC66329 /* PagingTransition.swift */,
+				9A8F2930016EB811D53BF217E50DD3A9 /* PagingView.swift */,
+				D1E03E6B158B08556B3EABFAB860BB93 /* PagingViewController.swift */,
+				CC64D6A0706F8FFDAD25B6E2CF030ECE /* PagingViewControllerDataSource.swift */,
+				E21980D3FBD3B6A899924F884140E582 /* PagingViewControllerDelegate.swift */,
+				232E5573B5A5C58751B8025D5EA9C0F4 /* PagingViewControllerInfiniteDataSource.swift */,
+				9994B6CF52B5BC2CE5F21C4F2E0EBAA0 /* PagingViewControllerSizeDelegate.swift */,
+				1653DF6D669E58C503E0C4DD36B35971 /* Tween.swift */,
+				47EA4DDA209A295ABF8E81F8FD39DB68 /* UIColor+interpolation.swift */,
+				D2394A60453133CBCA9899DE5B4D3068 /* UIEdgeInsets.swift */,
+				1FBE1C4BCAB70B04E68281B31944FF3C /* UIView+constraints.swift */,
+				ABF8D7578D17A0A4605DCF25D3B806DD /* Support Files */,
+			);
+			name = Parchment;
+			path = Parchment;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E216616929ACEDDABC2C1EB7728237B4 /* Pods */,
-				66E4CE91C379710B1E625F909DA9CF07 /* Products */,
+				D328D1C4F0EB858869457C07A6C455A5 /* Pods */,
+				E7B4A2E6BAD1B49F2081913991611881 /* Products */,
 				5E2AF042E8AA3894401E2DD6A9CCCAA2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -197,52 +437,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D65F0FF6FE320A5F513F46CE5395FAE4 /* InstantSearchVoiceOverlay */ = {
+		D328D1C4F0EB858869457C07A6C455A5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				783A9EC1722617E668250F4F44CA5088 /* AllowPermissionButton.swift */,
-				713CD3BEA3DBA28389913616D94EDBC3 /* AutoLayoutHelpers.swift */,
-				9113B8F00A4CC024F57B76E8BA8E10AA /* CloseView.swift */,
-				C5BB75FEEFB295D3C4D809DB70A5D6C7 /* Constant.swift */,
-				0C7B8885C5461029381EB29D607F85B0 /* Extensions.swift */,
-				0B3B350806A265177DD131E0CDE66144 /* MicrophonePermissionController.swift */,
-				8012E6DBDF8A5ED9EDD750F120512178 /* NoPermissionViewController.swift */,
-				007DFD96E0B6EEFFB638E30FDE58B99B /* PermissionController.swift */,
-				20A99096E4B017CE7CE37843FC66FCC2 /* PermissionViewController.swift */,
-				9AD1EE55F34E601FDF740E787A975BCC /* Recordable.swift */,
-				870EB25838230F6FD6650BB452FE2BB5 /* RecordingButton.swift */,
-				4166B62C49DB6236A4FC5E68EE83D9AD /* RecordingViewController.swift */,
-				6DD4186F1F15649FC77E51A314EE3A91 /* ResultViewController.swift */,
-				12B0FF7FE1EAD0A54B8F00DDB879E712 /* SpeechController.swift */,
-				902C5C1A22A8C7166E38695C126A8D29 /* SpeechRecognitionPermissionController.swift */,
-				DE2D3980015F6238FD122ADF13552CD6 /* VoiceOverlayController.swift */,
-				22EECB3DE06F88F17FE26FE5F0B4AB2C /* VoiceOverlayPackage.swift */,
-				43977E34DE8F264F277AD6C29DDBC242 /* Resources */,
-				662F5F45B5F840B70DE3FD2A20A152F3 /* Support Files */,
-			);
-			name = InstantSearchVoiceOverlay;
-			path = InstantSearchVoiceOverlay;
-			sourceTree = "<group>";
-		};
-		E216616929ACEDDABC2C1EB7728237B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D65F0FF6FE320A5F513F46CE5395FAE4 /* InstantSearchVoiceOverlay */,
+				32FA0A139A95B678D5423E193399170D /* InstantSearchVoiceOverlay */,
+				B1784CE5E58324ACC31D4C8AE8FB46B2 /* Parchment */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA179F713DC94F01F6BCD2C56F063179 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32BBA15BC2D7D5ADCDC4AF131C8973BB /* Assets.xcassets */,
+				E1DCA129857A4D9639CB3C1AD96DA3AC /* siri_end.mp3 */,
+				4DC3448581BA5155D9CB73701A520E12 /* siri_error.mp3 */,
+				16AD0A9A3EC085B8CB053D4EB9D1ECAE /* siri_start.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E7B4A2E6BAD1B49F2081913991611881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C906FF0017ACE692189192383B875D74 /* InstantSearchVoiceOverlay.framework */,
+				BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */,
+				6E9F99F1CEEAB2BCE91510974041A127 /* Pods_FinalProject.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		530F195005F0FCF44D74E16619324AF4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E7381E5AFE7A18B3D43AAFBB81B4EF9 /* Pods-FinalProject-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B745D3817E2A6C85AC5946A06885BF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,9 +478,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1D7634AC14BA50F9AAC4F9E18531079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B604F144E353518F2A04C5C9AFD13C2C /* Pods-FinalProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93213F5ED76ED95C9D4924B86529820 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8FF4FA576BC45DEA5D1ECC1468F90D /* Parchment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		18184DEEDE7075D999122505659B55E9 /* Parchment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D602925E062AC75DB347A11F43BBD3 /* Build configuration list for PBXNativeTarget "Parchment" */;
+			buildPhases = (
+				D93213F5ED76ED95C9D4924B86529820 /* Headers */,
+				24F9775205AF6C838AFD87A45289AC1F /* Sources */,
+				35EC3BA10C563AE78C8CF7BED6C94AB3 /* Frameworks */,
+				50F5D3CD83CB5EB2287F9C9363312913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parchment;
+			productName = Parchment;
+			productReference = BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6AF51AB1FAC8D29E2F505D42D5C3818 /* Build configuration list for PBXNativeTarget "InstantSearchVoiceOverlay" */;
@@ -274,17 +535,18 @@
 		};
 		416DB93DEE2658AE511B0EB635AC8C72 /* Pods-FinalProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01817E165AF8E8DB23C818FA8BE4CFF0 /* Build configuration list for PBXNativeTarget "Pods-FinalProject" */;
+			buildConfigurationList = 4349B2FD09B1806FABDEF2870A48738D /* Build configuration list for PBXNativeTarget "Pods-FinalProject" */;
 			buildPhases = (
-				530F195005F0FCF44D74E16619324AF4 /* Headers */,
-				3703424EF20D1D61EE048828B5657812 /* Sources */,
-				CDD3C057005D35D14E3FCBCF08244AAD /* Frameworks */,
-				B38C038178B2F7DB79BD78B4E46F9DC2 /* Resources */,
+				B1D7634AC14BA50F9AAC4F9E18531079 /* Headers */,
+				D156B0D97C45576D8E546018605118A9 /* Sources */,
+				A6417486811FCA2EF2817134E33BD608 /* Frameworks */,
+				0874D5FF231CC2F6AE907C5AA43E6056 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E35678A2132A5244865D50DE9F62F147 /* PBXTargetDependency */,
+				3F62A63BA14FEBF12C24FC604E27909D /* PBXTargetDependency */,
+				A156CF745379599253F1AE6F14E5A283 /* PBXTargetDependency */,
 			);
 			name = "Pods-FinalProject";
 			productName = "Pods-FinalProject";
@@ -301,7 +563,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -309,17 +571,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 66E4CE91C379710B1E625F909DA9CF07 /* Products */;
+			productRefGroup = E7B4A2E6BAD1B49F2081913991611881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */,
+				18184DEEDE7075D999122505659B55E9 /* Parchment */,
 				416DB93DEE2658AE511B0EB635AC8C72 /* Pods-FinalProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0874D5FF231CC2F6AE907C5AA43E6056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		419FE63A9968190AB03A9144F9F7033D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +601,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38C038178B2F7DB79BD78B4E46F9DC2 /* Resources */ = {
+		50F5D3CD83CB5EB2287F9C9363312913 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,11 +611,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3703424EF20D1D61EE048828B5657812 /* Sources */ = {
+		24F9775205AF6C838AFD87A45289AC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25000B8235A3A0D2FE35A2898FD472FC /* Pods-FinalProject-dummy.m in Sources */,
+				0D522192095B03BB121AF781BF544DAE /* AnyPagingItem.swift in Sources */,
+				45BE4348708F7D21D48F8A31D8F0DCC0 /* CollectionView.swift in Sources */,
+				327DA2CE5D9475F8812418C436DC92BD /* InvalidationState.swift in Sources */,
+				9C3D77F17E713775E48674441FB65A05 /* PageView.swift in Sources */,
+				6B2EBAB6DD41A4B60C440537A2F71ADA /* PageViewController.swift in Sources */,
+				6D1B32FA2067DF05B85CA6BC76A7055A /* PageViewControllerDataSource.swift in Sources */,
+				A9AAF2C56A27D4ADF9A421536E4700DF /* PageViewControllerDelegate.swift in Sources */,
+				6A504186E13C622D382A945DD86BECD5 /* PageViewDirection.swift in Sources */,
+				E435FA73C7AB697A75937B10F5A8BFF3 /* PageViewManager.swift in Sources */,
+				C236B7B8C1F8DC1760E55B637729D771 /* PageViewManagerDataSource.swift in Sources */,
+				A4C384CF78CF2D00DE64B72423FA51E7 /* PageViewManagerDelegate.swift in Sources */,
+				40854120870D906DA9CF9F6818C2A586 /* PageViewState.swift in Sources */,
+				1E1C37505C8FF000DCB67CEC45E1E737 /* PagingBorderLayoutAttributes.swift in Sources */,
+				ED517FEB751D53D8A821111B7254A925 /* PagingBorderOptions.swift in Sources */,
+				5AAEE2A5860ADF1F54CDC8015F376FB9 /* PagingBorderView.swift in Sources */,
+				3EA2F0041BAB7D2EA90C296B7B601D87 /* PagingCell.swift in Sources */,
+				845096CC57E982CD0D6A320449F2B3AF /* PagingCellLayoutAttributes.swift in Sources */,
+				C5D3863B12FBF0BFA4E297DC6249359F /* PagingCellViewModel.swift in Sources */,
+				F53DC785A913556433B964C543C86C5B /* PagingCollectionViewLayout.swift in Sources */,
+				46FB514B552478DCA59FA9AD56CFEB19 /* PagingContentInteraction.swift in Sources */,
+				833A2DCD78A668EAF2E6ECEA9BE7DF24 /* PagingController.swift in Sources */,
+				396D5E703627889AB9CC5A2252B4698D /* PagingDiff.swift in Sources */,
+				89E3692009842C0B79E06FB70889A88D /* PagingDirection.swift in Sources */,
+				2C9366A1B9EE92BAA7E4D62289177108 /* PagingDistance.swift in Sources */,
+				3D0122ACEA29BEF6FEF51A7748766213 /* PagingFiniteDataSource.swift in Sources */,
+				B7683EE1BD68E797E42A14A4E24A8B78 /* PagingIndexItem.swift in Sources */,
+				2640033B8342C4EC45E5F911B09D1D3A /* PagingIndicatorLayoutAttributes.swift in Sources */,
+				F2CF6AB02C2972418370FF8694FF763A /* PagingIndicatorMetric.swift in Sources */,
+				E1F0B990BB5F9B7239558E87B70A7F77 /* PagingIndicatorOptions.swift in Sources */,
+				9BB6D46693C1C564150AF319444042A5 /* PagingIndicatorView.swift in Sources */,
+				1742AC1E130AE352E5C78BBEB8599125 /* PagingInvalidationContext.swift in Sources */,
+				1B843F78A849AE99A03F29AFB129C0F9 /* PagingItem.swift in Sources */,
+				5CA6CC19DB976254ADB250213FE04C48 /* PagingItems.swift in Sources */,
+				384B93C6E72755BE0A7ED831EDC2EA55 /* PagingLayout.swift in Sources */,
+				576B418F3E22442F549991C4D87A767F /* PagingMenuDataSource.swift in Sources */,
+				1D1AD4E1E8D137808A1DBF14E871AAEA /* PagingMenuDelegate.swift in Sources */,
+				91F5DA701389462310FF1F343BC6822E /* PagingMenuHorizontalAlignment.swift in Sources */,
+				AC1700C0CAEBA26E5178076E84E5AFE8 /* PagingMenuInteraction.swift in Sources */,
+				7719B56A201A45735B8A51C9399C6AD7 /* PagingMenuItemSize.swift in Sources */,
+				FCEA5B6CF52DF4436A100E83A35B5254 /* PagingMenuItemSource.swift in Sources */,
+				E93134BBBE06146958073C93087703D0 /* PagingMenuPosition.swift in Sources */,
+				C892F4BD4795C624582FF290E3858254 /* PagingMenuTransition.swift in Sources */,
+				ABB815F3ABE8FFF39F90212D18991BF2 /* PagingMenuView.swift in Sources */,
+				EAF8E5CBB6507D7C2FC2B09C135D470A /* PagingNavigationOrientation.swift in Sources */,
+				BED2871609E32CE5BE41CD7111333798 /* PagingOptions.swift in Sources */,
+				22C25BE09A377A4A3DEFAECA7EBE6929 /* PagingSelectedScrollPosition.swift in Sources */,
+				181E15A274F2D6A161DEBEF9D174C00F /* PagingSizeCache.swift in Sources */,
+				109F659C029172AF837165B1C272BAAC /* PagingState.swift in Sources */,
+				A7EC2CD87B33FCE32907E079BFA797CA /* PagingStaticDataSource.swift in Sources */,
+				DF080916B7B4250E9DE4227B3E19A4EE /* PagingTitleCell.swift in Sources */,
+				2E8A1B4FD6AA6812F3C5E323B15381FE /* PagingTransition.swift in Sources */,
+				3B27CF29BC8C2A47E3F760927C724656 /* PagingView.swift in Sources */,
+				C6D675F08463AC45AC7F36525A09BA95 /* PagingViewController.swift in Sources */,
+				58497C193F64EAE7E1E3D298F2B6DA0C /* PagingViewControllerDataSource.swift in Sources */,
+				C4BB9BCEC4438A6928C34A4924A4FFC5 /* PagingViewControllerDelegate.swift in Sources */,
+				D3DE98DBBD84876658D174421E548F62 /* PagingViewControllerInfiniteDataSource.swift in Sources */,
+				2A56D138D623A33A078470508C5877FF /* PagingViewControllerSizeDelegate.swift in Sources */,
+				A2511C9A5374FEFE25D210147AE5BAA8 /* Parchment-dummy.m in Sources */,
+				BD47077E487BE1EF196B96535DB51CCD /* Tween.swift in Sources */,
+				37AFF0400220F4ED6E06779C16F0E11C /* UIColor+interpolation.swift in Sources */,
+				52C936D4F8E82594AB2D9DCCF115ACE2 /* UIEdgeInsets.swift in Sources */,
+				E04079DB74A408A5F5A625DCFCFB9EBC /* UIView+constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,55 +705,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D156B0D97C45576D8E546018605118A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7DBA389DBBACFB8DACCDABF493A4F8 /* Pods-FinalProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E35678A2132A5244865D50DE9F62F147 /* PBXTargetDependency */ = {
+		3F62A63BA14FEBF12C24FC604E27909D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = InstantSearchVoiceOverlay;
 			target = 3A186D5E4FEF43A5AF44DB305B59EC1F /* InstantSearchVoiceOverlay */;
-			targetProxy = 582997FD0154B22A6BEF86BCAFF3A5F4 /* PBXContainerItemProxy */;
+			targetProxy = 11329152D84C1794A76E00A9EE83FE68 /* PBXContainerItemProxy */;
+		};
+		A156CF745379599253F1AE6F14E5A283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parchment;
+			target = 18184DEEDE7075D999122505659B55E9 /* Parchment */;
+			targetProxy = 91C6444B1F2F9E08BAAADD990AC28A59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		088012E9D004B9C037B4B5EEFBBCEF06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AACE4D666716D0C05F7D21F0704A8729 /* Pods-FinalProject.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FinalProject/Pods-FinalProject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FinalProject/Pods-FinalProject.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		71243899B61152433AAE34EE86456EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,9 +859,44 @@
 			};
 			name = Debug;
 		};
+		81A2B663FD8BE2A244364E328D9D468D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661920BAE5B75E454D197DD3ED95E952 /* Parchment.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		98A03FB3371FFC326F3E5E44112CCCBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F669754CA69F851A47915CAB3E5C45F /* InstantSearchVoiceOverlay.release.xcconfig */;
+			baseConfigurationReference = EF729EFB1B2BD8F28737B31F6DFC483D /* InstantSearchVoiceOverlay.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -587,7 +930,7 @@
 			};
 			name = Release;
 		};
-		BA0FAD5E83F4D1FD8BEEBE3DE4F0BAE1 /* Release */ = {
+		A32ECCBE2E7ADF3EC01903451F15F9C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91E21D959085D5CFC7E75D14DE86B75C /* Pods-FinalProject.release.xcconfig */;
 			buildSettings = {
@@ -625,9 +968,80 @@
 			};
 			name = Release;
 		};
+		B6E5008A3218F2AD889EB30BD8E0F0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD662F88A471CD2BEFB02CD22F79A2B /* Parchment.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC22E6823F751B917360F6D491F064E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACE4D666716D0C05F7D21F0704A8729 /* Pods-FinalProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FinalProject/Pods-FinalProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinalProject/Pods-FinalProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E1BA926FBE1840A139A752933F222666 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82DD9B481BA9486825288ECD4AA8C2A4 /* InstantSearchVoiceOverlay.debug.xcconfig */;
+			baseConfigurationReference = 2E69E2A026F3600F2B58DFBF1CA9FE21 /* InstantSearchVoiceOverlay.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -663,11 +1077,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01817E165AF8E8DB23C818FA8BE4CFF0 /* Build configuration list for PBXNativeTarget "Pods-FinalProject" */ = {
+		17D602925E062AC75DB347A11F43BBD3 /* Build configuration list for PBXNativeTarget "Parchment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				088012E9D004B9C037B4B5EEFBBCEF06 /* Debug */,
-				BA0FAD5E83F4D1FD8BEEBE3DE4F0BAE1 /* Release */,
+				B6E5008A3218F2AD889EB30BD8E0F0CC /* Debug */,
+				81A2B663FD8BE2A244364E328D9D468D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4349B2FD09B1806FABDEF2870A48738D /* Build configuration list for PBXNativeTarget "Pods-FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC22E6823F751B917360F6D491F064E9 /* Debug */,
+				A32ECCBE2E7ADF3EC01903451F15F9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

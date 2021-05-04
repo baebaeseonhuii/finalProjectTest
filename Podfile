@@ -8,4 +8,5 @@ target 'FinalProject' do
   # Pods for FinalProject
 
 pod 'InstantSearchVoiceOverlay'
+pod 'Parchment', '~> 3.0'
 end
