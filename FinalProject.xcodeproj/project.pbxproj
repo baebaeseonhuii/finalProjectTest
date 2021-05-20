@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1833502656980C00D1DD5D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B18334F2656980C00D1DD5D /* SecondViewController.swift */; };
+		2B183356265698A100D1DD5D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B183355265698A100D1DD5D /* ThirdViewController.swift */; };
 		2B3587D12637E51D008D6DE4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3587D02637E51D008D6DE4 /* CalendarViewController.swift */; };
 		2B3587D42637E52C008D6DE4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3587D32637E52C008D6DE4 /* SettingsViewController.swift */; };
 		2B4BB2A926413311004E8A66 /* InsideCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BB2A826413311004E8A66 /* InsideCalendarViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B18334F2656980C00D1DD5D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2B183355265698A100D1DD5D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		2B3587D02637E51D008D6DE4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		2B3587D32637E52C008D6DE4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2B4BB2A826413311004E8A66 /* InsideCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideCalendarViewController.swift; sourceTree = "<group>"; };
@@ -52,15 +56,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B18334E265694B800D1DD5D /* AboutCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2B4BB2B426413D26004E8A66 /* AfterCalendarViewController.swift */,
+				2B4BB2A826413311004E8A66 /* InsideCalendarViewController.swift */,
+				2B3587D02637E51D008D6DE4 /* CalendarViewController.swift */,
+				2B18334F2656980C00D1DD5D /* SecondViewController.swift */,
+				2B183355265698A100D1DD5D /* ThirdViewController.swift */,
+			);
+			path = AboutCalendar;
+			sourceTree = "<group>";
+		};
 		2B62E8B72631603900249AE4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2B18334E265694B800D1DD5D /* AboutCalendar */,
 				2BDB327B2606F21200940873 /* IntroViewController.swift */,
 				2B62E8B82631605400249AE4 /* HomeViewController.swift */,
-				2B3587D02637E51D008D6DE4 /* CalendarViewController.swift */,
 				2B3587D32637E52C008D6DE4 /* SettingsViewController.swift */,
-				2B4BB2A826413311004E8A66 /* InsideCalendarViewController.swift */,
-				2B4BB2B426413D26004E8A66 /* AfterCalendarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -230,11 +244,13 @@
 			files = (
 				2B4BB2A926413311004E8A66 /* InsideCalendarViewController.swift in Sources */,
 				2B3587D12637E51D008D6DE4 /* CalendarViewController.swift in Sources */,
+				2B183356265698A100D1DD5D /* ThirdViewController.swift in Sources */,
 				2BDB327C2606F21200940873 /* IntroViewController.swift in Sources */,
 				2BDB32782606F21200940873 /* AppDelegate.swift in Sources */,
 				2BDB327A2606F21200940873 /* SceneDelegate.swift in Sources */,
 				2B4BB2B526413D26004E8A66 /* AfterCalendarViewController.swift in Sources */,
 				2B62E8B92631605400249AE4 /* HomeViewController.swift in Sources */,
+				2B1833502656980C00D1DD5D /* SecondViewController.swift in Sources */,
 				2B3587D42637E52C008D6DE4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
