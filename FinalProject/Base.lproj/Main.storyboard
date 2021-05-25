@@ -215,10 +215,10 @@
             </objects>
             <point key="canvasLocation" x="2809" y="1744"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="Aab-Zf-XNx">
             <objects>
-                <viewController id="ADw-HJ-pIH" sceneMemberID="viewController">
+                <viewController id="ADw-HJ-pIH" customClass="SettingsViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tjt-rA-moj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -23,9 +23,11 @@ class InsideCalendarViewController: UIViewController {
         label.edgeTo(view: view)
         button.setImage(mic, for: .normal)
         view.addSubview(button)
-        button.frame = CGRect(x: 100, y: 100, width: 200, height: 350)
+        button.frame = CGRect(x: 110, y: 150, width: 200, height: 350)
         return view
     }()
+    
+    // 시작일 Function
     
     lazy var view1: UIView = {
         let view = UIView()
@@ -38,6 +40,8 @@ class InsideCalendarViewController: UIViewController {
         return view
     }()
     
+    // 기간 Function
+    
     lazy var view2: UIView = {
         let view = UIView()
         view.backgroundColor = .systemIndigo
@@ -49,6 +53,8 @@ class InsideCalendarViewController: UIViewController {
         return view
     }()
     
+    // 주기 Function
+    
     lazy var view3: UIView = {
         let view = UIView()
         view.backgroundColor = .systemPurple
@@ -59,6 +65,8 @@ class InsideCalendarViewController: UIViewController {
         label.edgeTo(view: view)
         return view
     }()
+    
+    // 예정일 Function
     
     lazy var views = [view0, view1, view2, view3]
     lazy var scrollView: UIScrollView = {
