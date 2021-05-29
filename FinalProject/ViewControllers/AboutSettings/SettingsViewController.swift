@@ -42,9 +42,16 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
                        forCellReuseIdentifier: SwitchTableViewCell.identifier)
         
         return table
-    } ()
+    }()
     
     var models = [Section]()
+    
+    private let shareButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .systemIndigo
+        button.setTitle("어플 공유하기", for: .normal)
+        return button
+    }()
     
     
     override func viewDidLoad() {
@@ -55,50 +62,47 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
         tableView.delegate = self
         tableView.dataSource = self
         tableView.frame = view.bounds
+        shareButton.frame = CGRect(x: 20, y: 600, width: 350, height: 100)
+        //shareButton.center = view.center
+        shareButton.layer.cornerRadius = 20
+        shareButton.addTarget(self, action: #selector(presentShareSheet(_:)), for: .touchUpInside)
+        view.addSubview(shareButton)
     }
     
     func configure() {
         models.append(Section(title: "음성 안내 설정", options: [
-            .switchCell(model: SettingsSwitchOption(title: "인식 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemIndigo, handler: {
+            .switchCell(model: SettingsSwitchOption(title: "인식 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .link, handler: {
+                
+            }, isOn: true)),
+            
+        ]))
+        models.append(Section(title: "알림 설정", options: [
+            .switchCell(model: SettingsSwitchOption(title: "즐겨찾기에 추가되면 알람이 옵니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemGreen, handler: {
+                
+            }, isOn: true)),
+            
+        ]))
+        models.append(Section(title: "기타 설정", options: [
+            .switchCell(model: SettingsSwitchOption(title: "볼륨 버튼을 누를 때마다 촬영합니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemYellow, handler: {
                 
             }, isOn: true)),
             
         ]))
         
-        models.append(Section(title: "알림 설정", options: [
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemPink) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemGreen) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemIndigo) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemYellow) {
-                print("Tapped first cell")
-            })
-
-
-        ]))
         
-        models.append(Section(title: "기타 설정", options: [
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemPink) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemPink) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemPink) {
-                print("Tapped first cell")
-            }),
-            .staticCell(model: SettingsOption(title: "안내 결과를 음성으로 알려줍니다.", icon: UIImage(systemName: "speaker.wave.2"), iconBackgroundColor: .systemPink) {
-                print("Tapped first cell")
-            })
-
-
-        ]))
     }
+    
+    @objc private func presentShareSheet(_ sender: UIButton) {
+        guard let url = URL(string: "https://baebaeseonhuii.github.io/finalProjectTest/") else {
+            return
+        }
+        
+        let shareSheetVC = UIActivityViewController(activityItems: [url],
+                                                    applicationActivities: nil)
+        
+        present(shareSheetVC, animated: true)
+    }
+    
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let section = models[section]
